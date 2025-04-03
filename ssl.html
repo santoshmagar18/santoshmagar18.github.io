@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,56 +14,41 @@
             background-color: #f4f7fc;
             color: #333;
         }
+
         .navbar {
             background-color: #4a47a3;
         }
+
         .navbar a {
             color: white !important;
         }
+
         .hero {
             background: linear-gradient(135deg, #4a47a3, #6a57d5);
             color: white;
             padding: 80px 0;
         }
+
         .btn-primary {
             background-color: #ff7b54;
             border-color: #ff7b54;
         }
+
         .btn-primary:hover {
             background-color: #ff5722;
         }
+
         .card {
             border: none;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         }
+
         .bg-dark {
             background-color: #2a2a72 !important;
         }
-        .container1 {
-            margin-top: 50px;
-            text-align: center;
-        }
-        h1 {
-            /* color: #ff7b54; */
-            font-weight: 600;
-        }
-        .search-box {
-            max-width: 600px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        }
-        .btn-primary {
-            background-color: #ff7b54;
-            border-color: #ff7b54;
-        }
-        .btn-primary:hover {
-            background-color: #ff5722;
-        }
     </style>
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
@@ -88,54 +74,83 @@
     <!-- Hero Section -->
     <header class="hero text-center">
         <div class="container">
-            <h1>Grow your business with us!</h1>
-            <p>Fast, Secure & Scalable hosting solutions for your website</p>
-            <a href="#pricing" class="btn btn-primary btn-lg">Get Started</a>
+            <h1>Secure your website and customer data </h1>
+            <p>Safeguard customer data and boost trust in your online business</p>
+            <a href="#pricing" class="btn btn-primary btn-lg">View Plans</a>
         </div>
     </header>
 
-
-    <!-- Domain Sestion -->
-    <div class="container1">
-        <h1>Find Your Perfect Domain</h1>
-        <p>Enter search string or domain name to search for the domain.</p>
-        <div class="search-box">
-            <form id="domain-search-form">
-                <div class="mb-3 d-flex">
-                    <input type="text" class="form-control" id="domain-name" placeholder="Enter domain name" required>
-                    <!-- <label for="domain-name">Domain Name</label> -->
-                </div>
-                <button type="submit" class="btn btn-primary w-100">Search Domain</button>
-            </form>
-            <p class="mt-3" id="search-result"></p>
-        </div>
-    </div>
-    <hr>
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="bg-light py-3">
+    <!-- Services Section -->
+    <section id="services" class="py-5">
         <div class="container text-center">
-            <h2>Our Services</h2>
+            <h2>Why SSL?</h2>
             <div class="row mt-4">
                 <div class="col-md-4">
+                    <h4>Increase SEO ranking </h4>
+                    <p>Search engines heavily favor https-encrypted websites and will push them higher in search
+                        results.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Compliance with regulation standards </h4>
+                    <p>An SSL certificate helps protect online businesses, including standards and regulations such as
+                        PCI-DSS, HIPAA, HITECH, GDPR, and more.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h4>24/7 Support</h4>
+                    <p>Literally anytime, anyday.</p>
+                </div>
+            </div>
+            <div class="row md-4">
+                <div class="col-md-4">
+                    <h4>24/7 Support</h4>
+                    <p>Literally anytime, anyday.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>24/7 Support</h4>
+                    <p>Literally anytime, anyday.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Our Pricing Plans</h2>
+            <div class="row mt-4 d-flex justify-content-center">
+                <div class="col-md-4">
                     <div class="card p-3">
-                        <h4>Domain Services</h4>
-                        <p>Purchase your domain or transfer your domain</p>
-                        <a href="#" class="btn btn-primary">Get Started</a>
+                        <h4>Positive SSL </h4>
+                        <p>₹ 871/year</p>
+                        <hr>
+                        <ul>
+                            <li class="text-start">Domain-Validation</li>
+                            <li class="text-start">One domain </li>
+                            <li class="text-start"> Issued within 2 days</li>
+                            <li class="text-start">128 or 256-bit encryption</li>
+                            <li class="text-start">Comodo Secure Seal</li>
+                            <li class="text-start">Domain-Validation</li>
+                            <li class="text-start"> $10,000 relying party warranty </li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Choose Plan</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card p-3">
-                        <h4>Hosting Services</h4>
-                        <p>Select from wide range of hosting services</p>
-                        <a href="#" class="btn btn-primary">Get Started</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card p-3">
-                        <h4>SSL Certificates</h4>
-                        <p>Secure your applications and build trust by using SSL certificates.</p>
-                        <a href="#" class="btn btn-primary">Get Started</a>
+                        <h4>Positive SSL Wildcard </h4>
+                        <p>₹ 9643/year</p>
+                        <hr>
+                        <ul>
+                            <li class="text-start">Domain-Validation</li>
+                            <li class="text-start">Unlimited Sub-domains </li>
+                            <li class="text-start"> Issued within 2 days</li>
+                            <li class="text-start">128 or 256-bit encryption</li>
+                            <li class="text-start">Comodo Secure Seal</li>
+                            <li class="text-start">Domain-Validation</li>
+                            <li class="text-start"> $10,000 relying party warranty </li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Choose Plan</a>
                     </div>
                 </div>
             </div>
@@ -158,4 +173,5 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
